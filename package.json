@@ -1,5 +1,5 @@
 {
-  "name": "@brainly/onesky-utils",
+  "name": "@elastic-internal/onesky-utils",
   "version": "1.4.2",
   "description": "Node.js utils for working with OneSky translation service.",
   "main": "index.js",
@@ -8,23 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brainly/nodejs-onesky-utils.git"
+    "url": "git+https://github.com/ElasticSuite/nodejs-onesky-utils.git"
   },
-  "author": "Brainly Sp. z o.o. - (http://www.brainly.co)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/brainly/nodejs-onesky-utils/issues"
-  },
-  "homepage": "https://github.com/brainly/nodejs-onesky-utils",
   "dependencies": {
     "md5": "^2.0.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
+    "chai": "^4.3.7",
     "eslint": "^5.12.0",
-    "mocha": "^7.2.0",
+    "mocha": "^10.2.0",
     "mockery": "^2.1.0",
     "sinon": "^7.2.2",
     "sinon-chai": "^3.3.0"
